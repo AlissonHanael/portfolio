@@ -4,6 +4,7 @@ import React from 'react'
 import MarioRun from '../assets/MarioRun.png'
 import BlitchPop from '../assets/BlitchPop.png'
 import SimonsWinery from '../assets/SimonsWinery.png'
+import BtnLink from './BtnLink'
 
 const ProjectsCards = () => {
   return (
@@ -15,23 +16,8 @@ const ProjectsCards = () => {
           <h2 className="project-title">Mario Run</h2>
           <div className="project-detail">
             <p>Projeto feito com intuíto de aprender mais sobre JavaScript</p>
-            <div className="btn-link">
-              <a
-                href="https://alissonhanael.github.io/marioinfiniterun/MARIO_RUN/"
-                className="btn"
-                target="_blank"
-              >
-                Visualizar
-              </a>
-              <a
-                href="https://github.com/AlissonHanael/marioinfiniterun"
-                className="btn"
-                target="_blank"
-              >
-                Código
-              </a>
-            </div>
           </div>
+          <BtnLink />
         </div>
         <div className="card-container">
           <img src={BlitchPop} alt="Projeto - Blitchpop" />

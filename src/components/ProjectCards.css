@@ -26,8 +26,12 @@ h2{
   padding: 0.5rem 0 0.5rem 0;
 }
 .btn-link{
-  margin-top: 2rem;
+  margin-top: auto;
   display: flex;
-  
   justify-content: space-between;
+}
+.project-detail{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
