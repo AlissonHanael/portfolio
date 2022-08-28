@@ -12,7 +12,6 @@ import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di"
 const ProjectsCards = () => {
 	return (
 		<div className="projects-section">
-			<h4 className="project-heading">Projetos</h4>
 			<div className="project-container">
 				<div className="card-container">
 					<img src={MarioRun} alt="Projeto - Mario Run" />
