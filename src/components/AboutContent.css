@@ -1,0 +1,49 @@
+.about-section{
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right,rgb(30, 30, 30), rgb(10, 10, 10));
+}
+.divider{
+  margin: 2rem 0 2rem 0;
+  background: #fff;
+  border: 1px solid #fff
+}
+.img-person{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.img-person img{
+  
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.about-text{
+  padding: 2.5rem 3.5rem 2.5rem 3.5rem;
+  line-height: 1.5rem;
+  width: 50%;
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+	.about-section{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(30, 30, 30), rgb(10, 10, 10));
+  }
+  .img-person{
+    display: none;
+  }
+  .divider{
+    display: none;
+  }
+  .about-text{
+    padding: 2.5rem 3.5rem 2.5rem 3.5rem;
+    line-height: 1.5rem;
+    width: 100%;
+    color: #fff;
+  }
+}
