@@ -2,7 +2,13 @@ import React from 'react'
 import './AboutContent.css'
 import Person from '../assets/person-img.png'
 import TecnologiesCard from './TecnologiesCard'
-import { DiCss3, DiHtml5, DiJavascript1, DiReact } from 'react-icons/di'
+import {
+  DiCss3,
+  DiHtml5,
+  DiJavascript1,
+  DiReact,
+  DiDatabase
+} from 'react-icons/di'
 
 const AboutContent = () => {
   return (
@@ -23,12 +29,21 @@ const AboutContent = () => {
           principalmente o Front-end.
           <p />
           Sou curioso e gosto muito de aprender coisas novas! O que me atrai é o
-          desafio.
+          desafio. Atualmente, trabalho como Jovem Aprendiz na Ativus Gestão
+          Empresarial, criando relátorios utilizando SQL no Crystal Reports.
         </div>
       </div>
       <div className="tecnologies-section">
-        <h2>Tecnologias que uso</h2>
-        <TecnologiesCard icon={<DiCss3 />} />
+        <div className="tecnologies-title">
+          <h2>Tecnologias que uso</h2>
+        </div>
+        <div className="tecnologies-cards">
+          <TecnologiesCard icon={<DiCss3 />} />
+          <TecnologiesCard icon={<DiHtml5 />} />
+          <TecnologiesCard icon={<DiJavascript1 />} />
+          <TecnologiesCard icon={<DiReact />} />
+          <TecnologiesCard icon={<DiDatabase />} />
+        </div>
       </div>
     </section>
   )

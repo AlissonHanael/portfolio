@@ -1,8 +1,12 @@
 import React from 'react'
 import './TecnologiesCard.css'
 
-const TecnologiesCard = () => {
-  return <div class="card"></div>
+const TecnologiesCard = props => {
+  return (
+    <div class="card">
+      <h2>{props.icon}</h2>
+    </div>
+  )
 }
 
 export default TecnologiesCard
