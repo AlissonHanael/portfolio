@@ -9,6 +9,7 @@ import {
   DiReact,
   DiDatabase
 } from 'react-icons/di'
+import DownloadButton from './DownloadButton'
 
 const AboutContent = () => {
   return (
@@ -31,6 +32,9 @@ const AboutContent = () => {
           Sou curioso e gosto muito de aprender coisas novas! O que me atrai é o
           desafio. Atualmente, trabalho como Jovem Aprendiz na Ativus Gestão
           Empresarial, criando relátorios utilizando SQL no Crystal Reports.
+          <div className="download-btn">
+            <DownloadButton />
+          </div>
         </div>
       </div>
       <div className="tecnologies-section">
