@@ -79,6 +79,7 @@
     color: #fff;
   }
   .tecnologies-section{
+    height: auto;
     display: flex;
     margin: 0 0 3rem 0
   }
@@ -99,4 +100,13 @@
     align-items: center;
   
   } 
+}
+@media screen and (max-width: 1024px){
+  .about-section{
+    
+    line-height: 1.5rem;
+    width: 100%;
+    color: #fff;
+    height: auto;
+  }
 }

@@ -68,6 +68,11 @@ h4 {
 	.info-container {
 		flex-direction: column;
 	}
+	.whatsapp{
+		margin: 0 1rem;
+		display: flex;
+		text-align: center;
+	}
 	h4 {
 		font-size: 1rem;
 		padding-bottom: 0.7rem;
