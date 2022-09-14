@@ -11,3 +11,6 @@ Após isso é só executar com:
 
 ### `npm start`
 
+Versão em produção: 
+
+https://portzaio.vercel.app
