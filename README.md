@@ -1,4 +1,4 @@
-# Esse é o repositório do meu portifólio
+# Esse é o repositório do meu portfolio
 
 Criado com ReactJS
 
