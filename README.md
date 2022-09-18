@@ -1,4 +1,4 @@
-# Esse é o repositório do meu portifólio
+# Esse é o repositório do meu portfolio
 
 Criado com ReactJS
 
@@ -11,3 +11,6 @@ Após isso é só executar com:
 
 ### `npm start`
 
+Versão em produção: 
+
+https://portzaio.vercel.app
