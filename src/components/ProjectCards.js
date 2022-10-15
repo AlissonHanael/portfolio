@@ -103,9 +103,9 @@ const ProjectsCards = () => {
 						github="https://github.com/AlissonHanael/reminder"
 					/>
 				</div>
-					<div className="card-container">
-					<img src={AluraBooks} alt="Projeto - AluraBooks" />
-					<h2 className="project-title">Meu Portifolio</h2>
+				<div className="card-container">
+					<img src={Alurabook} alt="Projeto - AluraBooks" />
+					<h2 className="project-title">Alura Books</h2>
 					<div className="project-detail">
 						<p>Consumo de API e métodos de array.</p>
 					</div>
@@ -114,7 +114,6 @@ const ProjectsCards = () => {
 						<DiHtml5 />
 						<DiCss3 />
 						<DiJavascript1 />
-						
 					</div>
 					<BtnLink
 						site="https://alissonhanael.github.io/AluraBook/"
