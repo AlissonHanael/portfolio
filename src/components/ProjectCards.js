@@ -6,6 +6,7 @@ import BlitchPop from "../assets/BlitchPop.png"
 import SimonsWinery from "../assets/SimonsWinery.png"
 import Reminder from "../assets/reminder.png"
 import Portifolio from "../assets/portifolio.png"
+import Alurabook from "../assets/alurabook.png"
 import BtnLink from "./BtnLink"
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di"
 
@@ -85,7 +86,7 @@ const ProjectsCards = () => {
 					/>
 				</div>
 				<div className="card-container">
-					<img src={Portifolio} alt="Projeto - Reminder" />
+					<img src={Portifolio} alt="Portfolio" />
 					<h2 className="project-title">Meu Portifolio</h2>
 					<div className="project-detail">
 						<p>Primeiro contato com ReactJs, enquanto faço curso de React da Alura.</p>
@@ -100,6 +101,24 @@ const ProjectsCards = () => {
 					<BtnLink
 						site="https://alissonhanael.github.io/reminder/reminder/"
 						github="https://github.com/AlissonHanael/reminder"
+					/>
+				</div>
+					<div className="card-container">
+					<img src={AluraBooks} alt="Projeto - AluraBooks" />
+					<h2 className="project-title">Meu Portifolio</h2>
+					<div className="project-detail">
+						<p>Consumo de API e métodos de array.</p>
+					</div>
+					<p>Tecnologias Usadas:</p>
+					<div className="tecnologies-list">
+						<DiHtml5 />
+						<DiCss3 />
+						<DiJavascript1 />
+						
+					</div>
+					<BtnLink
+						site="https://alissonhanael.github.io/AluraBook/"
+						github="https://github.com/AlissonHanael/AluraBook"
 					/>
 				</div>
 			</div>
