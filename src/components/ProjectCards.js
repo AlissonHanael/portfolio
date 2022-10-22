@@ -7,7 +7,7 @@ import SimonsWinery from "../assets/SimonsWinery.png"
 import Reminder from "../assets/reminder.png"
 import Portifolio from "../assets/portifolio.png"
 import Alurabook from "../assets/alurabook.png"
-import RelogioJS from "../assets/relogiojs.png"
+import RelogioJS from "../assets/RelogioJS.png"
 import BtnLink from "./BtnLink"
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di"
 
