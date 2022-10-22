@@ -7,6 +7,7 @@ import SimonsWinery from "../assets/SimonsWinery.png"
 import Reminder from "../assets/reminder.png"
 import Portifolio from "../assets/portifolio.png"
 import Alurabook from "../assets/alurabook.png"
+import RelogioJS from "../assets/relogiojs.png"
 import BtnLink from "./BtnLink"
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di"
 
@@ -118,6 +119,23 @@ const ProjectsCards = () => {
 					<BtnLink
 						site="https://alissonhanael.github.io/AluraBook/"
 						github="https://github.com/AlissonHanael/AluraBook"
+					/>
+				</div>
+				<div className="card-container">
+					<img src={RelogioJS} alt="Projeto - Relogio JS" />
+					<h2 className="project-title">Relogio JS</h2>
+					<div className="project-detail">
+						<p>Consumo de API e métodos de array.</p>
+					</div>
+					<p>Tecnologias Usadas:</p>
+					<div className="tecnologies-list">
+						<DiHtml5 />
+						<DiCss3 />
+						<DiJavascript1 />
+					</div>
+					<BtnLink
+						site="https://alissonhanael.github.io/relogioJS/"
+						github="https://github.com/AlissonHanael/relogioJS"
 					/>
 				</div>
 			</div>
