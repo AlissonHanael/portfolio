@@ -125,7 +125,7 @@ const ProjectsCards = () => {
 					<img src={RelogioJS} alt="Projeto - Relogio JS" />
 					<h2 className="project-title">Relogio JS</h2>
 					<div className="project-detail">
-						<p>Consumo de API e métodos de array.</p>
+						<p>Utilização de javascript e animação css para desenvovimento do projeto!</p>
 					</div>
 					<p>Tecnologias Usadas:</p>
 					<div className="tecnologies-list">
