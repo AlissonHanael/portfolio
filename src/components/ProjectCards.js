@@ -8,8 +8,20 @@ import Reminder from "../assets/reminder.png"
 import Portifolio from "../assets/portifolio.png"
 import Alurabook from "../assets/alurabook.png"
 import RelogioJS from "../assets/RelogioJS.png"
+import MSFaturas from "../assets/MSFaturas.png"
+import Educativus from "../assets/Educativus.png"
 import BtnLink from "./BtnLink"
-import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di"
+import {
+	DiCss3,
+	DiHtml5,
+	DiJavascript1,
+	DiReact,
+	DiPhp,
+	DiBootstrap,
+	DiMysql,
+	DiDjango,
+	DiPython,
+} from "react-icons/di"
 
 const ProjectsCards = () => {
 	return (
@@ -137,6 +149,41 @@ const ProjectsCards = () => {
 						site="https://alissonhanael.github.io/relogioJS/"
 						github="https://github.com/AlissonHanael/relogioJS"
 					/>
+				</div>
+				<div className="card-container">
+					<img src={MSFaturas} alt="Projeto - MS Faturas" />
+					<h2 className="project-title">MSFaturas</h2>
+					<div className="project-detail">
+						<p>
+							Projeto desenvolvido para uma empresa da minha cidade na intenção de substituir um sistema muito antigo
+							que era utilizado para controle interno.
+						</p>
+					</div>
+					<p>Tecnologias Usadas:</p>
+					<div className="tecnologies-list">
+						<DiPhp />
+						<DiBootstrap />
+						<DiMysql />
+					</div>
+					<BtnLink site="https://youtu.be/lQdgSVN9bUM" github="https://github.com/AlissonHanael/MSFaturas" />
+				</div>
+				<div className="card-container">
+					<img src={Educativus} alt="Projeto - Educativus" />
+					<h2 className="project-title">EducAtivus</h2>
+					<div className="project-detail">
+						<p>
+							Esse projeto foi criado com o propósito de instruir usuários a usar o SAP B1. E ele se tornou meu projeto
+							de TCC!
+						</p>
+					</div>
+					<p>Tecnologias Usadas:</p>
+					<div className="tecnologies-list">
+						<DiDjango />
+						<DiPython />
+						<DiMysql />
+						<DiReact />
+					</div>
+					<BtnLink site="https://youtu.be/6XH6cXaF9ls" github="https://github.com/AlissonHanael/Educativus2.0" />
 				</div>
 			</div>
 		</div>
